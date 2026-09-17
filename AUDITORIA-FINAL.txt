@@ -1,0 +1,17 @@
+AUDITORÍA FINAL · SCRATCH 5.º · P1
+=====================================
+Navegación interna: OK
+Botones de impresión: OK
+Secciones obligatorias: OK
+Semanas: 10/10
+Fichas: 10/10
+Evidencias: 10/10
+Instrumentos: 10/10
+Menú principal: Inicio · Planificación P1 · Semanas · Actividades · Pasaporte · Espacio docente
+Panel Actividades: acceso directo a actividad/ficha/evidencia/instrumento por semana.
+Espacio docente: accesos P1 + tabla de las 10 semanas.
+Privacidad: instrumentos públicos en blanco; seguimiento individual no se registra en la web pública.
+
+Enlaces internos faltantes: ninguno
+Referencias de impresión faltantes: ninguna
+Secciones faltantes: ninguna
