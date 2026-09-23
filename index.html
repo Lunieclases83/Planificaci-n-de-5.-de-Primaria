@@ -1,6 +1,23 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Planificación de 5.º de Primaria · P1 | CAJPD</title>
 <link rel="stylesheet" href="css/premium.css"><link rel="stylesheet" href="css/print.css" media="print">  <link rel="stylesheet" href="css/professional-final.css">
+
+<style>
+.activity-status-select{
+  border:1px solid #cbd5e1;border-radius:999px;background:#fff;color:#334155;
+  font:inherit;font-size:.82rem;font-weight:700;padding:7px 30px 7px 10px;max-width:180px;
+}
+.activity-status-select:focus{outline:3px solid rgba(14,116,144,.18);border-color:#0e7490}
+.status-save-note{font-size:.82rem;color:#64748b;margin:.35rem 0 0}
+.teacher-status-select{
+  width:100%;min-width:135px;border:1px solid #cbd5e1;border-radius:8px;
+  background:#fff;padding:7px;font:inherit;font-size:.9rem
+}
+@media(max-width:700px){
+  .activity-card-head{align-items:flex-start;gap:8px}
+  .activity-status-select{max-width:155px}
+}
+</style>
 </head><body>
 <header class="institutional">
  <div class="topbrand"><img src="assets/logo-cajpd.png" alt="Logo Colegio Adventista Juan Pablo Duarte">
@@ -48,35 +65,55 @@
 </section>
 
 <section id="actividades" class="cardbox activity-dashboard"><div class="section-title"><div><p class="eyebrow">ACCESO DIRECTO</p><h3>Actividades y productos del P1</h3></div><span class="dashboard-badge">10 misiones</span></div>
-<p>Entra directamente a la actividad, ficha, evidencia o instrumento de cada semana.</p><div class="activity-grid"><article class="activity-card">
-<div class="activity-card-head"><span>S1</span><small>Ya trabajado</small></div>
+<p>Entra directamente a la actividad, ficha, evidencia o instrumento de cada semana.</p><p class="status-save-note">✓ El estado que selecciones se guarda automáticamente en este navegador y se sincroniza con la ruta, la vista de semanas, la misión y el espacio docente.</p><div class="activity-grid"><article class="activity-card">
+<div class="activity-card-head"><span>S1</span><select class="activity-status-select" data-week="1" aria-label="Estado de la semana 1">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></div>
 <h4>Volvemos a Scratch</h4>
 <div class="activity-links"><a href="#semana1">Ver actividad</a><a href="#ficha1">Ficha</a><a href="#evidencia1">Evidencia</a><a href="#instrumento1">Instrumento</a></div></article><article class="activity-card">
-<div class="activity-card-head"><span>S2</span><small>Ya trabajado</small></div>
+<div class="activity-card-head"><span>S2</span><select class="activity-status-select" data-week="2" aria-label="Estado de la semana 2">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></div>
 <h4>¿Qué recuerdo y qué puedo hacer?</h4>
 <div class="activity-links"><a href="#semana2">Ver actividad</a><a href="#ficha2">Ficha</a><a href="#evidencia2">Evidencia</a><a href="#instrumento2">Instrumento</a></div></article><article class="activity-card">
-<div class="activity-card-head"><span>S3</span><small>Clase actual</small></div>
+<div class="activity-card-head"><span>S3</span><select class="activity-status-select" data-week="3" aria-label="Estado de la semana 3">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></div>
 <h4>¡Llega al lugar correcto!</h4>
 <div class="activity-links"><a href="#semana3">Ver actividad</a><a href="#ficha3">Ficha</a><a href="#evidencia3">Evidencia</a><a href="#instrumento3">Instrumento</a></div></article><article class="activity-card">
-<div class="activity-card-head"><span>S4</span><small>Por trabajar</small></div>
+<div class="activity-card-head"><span>S4</span><select class="activity-status-select" data-week="4" aria-label="Estado de la semana 4">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></div>
 <h4>Dos caminos, un mismo destino</h4>
 <div class="activity-links"><a href="#semana4">Ver actividad</a><a href="#ficha4">Ficha</a><a href="#evidencia4">Evidencia</a><a href="#instrumento4">Instrumento</a></div></article><article class="activity-card">
-<div class="activity-card-head"><span>S5</span><small>Por trabajar</small></div>
+<div class="activity-card-head"><span>S5</span><select class="activity-status-select" data-week="5" aria-label="Estado de la semana 5">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></div>
 <h4>El baile que se repite</h4>
 <div class="activity-links"><a href="#semana5">Ver actividad</a><a href="#ficha5">Ficha</a><a href="#evidencia5">Evidencia</a><a href="#instrumento5">Instrumento</a></div></article><article class="activity-card">
-<div class="activity-card-head"><span>S6</span><small>Por trabajar</small></div>
+<div class="activity-card-head"><span>S6</span><select class="activity-status-select" data-week="6" aria-label="Estado de la semana 6">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></div>
 <h4>Una mini-historia que cobra vida</h4>
 <div class="activity-links"><a href="#semana6">Ver actividad</a><a href="#ficha6">Ficha</a><a href="#evidencia6">Evidencia</a><a href="#instrumento6">Instrumento</a></div></article><article class="activity-card">
-<div class="activity-card-head"><span>S7</span><small>Por trabajar</small></div>
+<div class="activity-card-head"><span>S7</span><select class="activity-status-select" data-week="7" aria-label="Estado de la semana 7">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></div>
 <h4>Scratch me ayuda a explicar</h4>
 <div class="activity-links"><a href="#semana7">Ver actividad</a><a href="#ficha7">Ficha</a><a href="#evidencia7">Evidencia</a><a href="#instrumento7">Instrumento</a></div></article><article class="activity-card">
-<div class="activity-card-head"><span>S8</span><small>Por trabajar</small></div>
+<div class="activity-card-head"><span>S8</span><select class="activity-status-select" data-week="8" aria-label="Estado de la semana 8">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></div>
 <h4>Diseño mi misión final</h4>
 <div class="activity-links"><a href="#semana8">Ver actividad</a><a href="#ficha8">Ficha</a><a href="#evidencia8">Evidencia</a><a href="#instrumento8">Instrumento</a></div></article><article class="activity-card">
-<div class="activity-card-head"><span>S9</span><small>Por trabajar</small></div>
+<div class="activity-card-head"><span>S9</span><select class="activity-status-select" data-week="9" aria-label="Estado de la semana 9">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></div>
 <h4>Construyo, pruebo y mejoro</h4>
 <div class="activity-links"><a href="#semana9">Ver actividad</a><a href="#ficha9">Ficha</a><a href="#evidencia9">Evidencia</a><a href="#instrumento9">Instrumento</a></div></article><article class="activity-card">
-<div class="activity-card-head"><span>S10</span><small>Proyecto final</small></div>
+<div class="activity-card-head"><span>S10</span><select class="activity-status-select" data-week="10" aria-label="Estado de la semana 10">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></div>
 <h4>Presento: Una misión con propósito</h4>
 <div class="activity-links"><a href="#semana10">Ver actividad</a><a href="#ficha10">Ficha</a><a href="#evidencia10">Evidencia</a><a href="#instrumento10">Instrumento</a></div></article></div></section>
 
@@ -444,8 +481,100 @@
 <section id="docente" class="cardbox teacher-dashboard">
 <div class="section-title"><div><p class="eyebrow">USO DOCENTE</p><h3>Espacio docente · Período 1</h3></div><span class="private-badge">🔒 Seguimiento privado fuera de la web pública</span></div>
 <div class="teacher-tools"><a href="#planificacion">Planificación P1</a><a href="#semanas">Secuencia de 10 semanas</a><a href="#actividades">Actividades</a><a href="#instrumento10">Rúbrica final · 100 pts</a><a href="#pasaporte">Pasaporte</a></div>
-<div class="table-scroll"><table><thead><tr><th>Semana</th><th>Misión</th><th>Estado</th><th>Accesos</th></tr></thead><tbody><tr><td><b>S1</b></td><td>Volvemos a Scratch</td><td>Ya trabajado</td><td><a href="#semana1">Actividad</a> · <a href="#ficha1">Ficha</a> · <a href="#instrumento1">Evaluación</a></td></tr><tr><td><b>S2</b></td><td>¿Qué recuerdo y qué puedo hacer?</td><td>Ya trabajado</td><td><a href="#semana2">Actividad</a> · <a href="#ficha2">Ficha</a> · <a href="#instrumento2">Evaluación</a></td></tr><tr><td><b>S3</b></td><td>¡Llega al lugar correcto!</td><td>Clase actual</td><td><a href="#semana3">Actividad</a> · <a href="#ficha3">Ficha</a> · <a href="#instrumento3">Evaluación</a></td></tr><tr><td><b>S4</b></td><td>Dos caminos, un mismo destino</td><td>Por trabajar</td><td><a href="#semana4">Actividad</a> · <a href="#ficha4">Ficha</a> · <a href="#instrumento4">Evaluación</a></td></tr><tr><td><b>S5</b></td><td>El baile que se repite</td><td>Por trabajar</td><td><a href="#semana5">Actividad</a> · <a href="#ficha5">Ficha</a> · <a href="#instrumento5">Evaluación</a></td></tr><tr><td><b>S6</b></td><td>Una mini-historia que cobra vida</td><td>Por trabajar</td><td><a href="#semana6">Actividad</a> · <a href="#ficha6">Ficha</a> · <a href="#instrumento6">Evaluación</a></td></tr><tr><td><b>S7</b></td><td>Scratch me ayuda a explicar</td><td>Por trabajar</td><td><a href="#semana7">Actividad</a> · <a href="#ficha7">Ficha</a> · <a href="#instrumento7">Evaluación</a></td></tr><tr><td><b>S8</b></td><td>Diseño mi misión final</td><td>Por trabajar</td><td><a href="#semana8">Actividad</a> · <a href="#ficha8">Ficha</a> · <a href="#instrumento8">Evaluación</a></td></tr><tr><td><b>S9</b></td><td>Construyo, pruebo y mejoro</td><td>Por trabajar</td><td><a href="#semana9">Actividad</a> · <a href="#ficha9">Ficha</a> · <a href="#instrumento9">Evaluación</a></td></tr><tr><td><b>S10</b></td><td>Presento: Una misión con propósito</td><td>Proyecto final</td><td><a href="#semana10">Actividad</a> · <a href="#ficha10">Ficha</a> · <a href="#instrumento10">Evaluación</a></td></tr></tbody></table></div>
+<div class="table-scroll"><table><thead><tr><th>Semana</th><th>Misión</th><th>Estado</th><th>Accesos</th></tr></thead><tbody><tr><td><b>S1</b></td><td>Volvemos a Scratch</td><td><select class="teacher-status-select" data-week="1" aria-label="Estado docente semana 1">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></td><td><a href="#semana1">Actividad</a> · <a href="#ficha1">Ficha</a> · <a href="#instrumento1">Evaluación</a></td></tr><tr><td><b>S2</b></td><td>¿Qué recuerdo y qué puedo hacer?</td><td><select class="teacher-status-select" data-week="2" aria-label="Estado docente semana 2">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></td><td><a href="#semana2">Actividad</a> · <a href="#ficha2">Ficha</a> · <a href="#instrumento2">Evaluación</a></td></tr><tr><td><b>S3</b></td><td>¡Llega al lugar correcto!</td><td><select class="teacher-status-select" data-week="3" aria-label="Estado docente semana 3">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></td><td><a href="#semana3">Actividad</a> · <a href="#ficha3">Ficha</a> · <a href="#instrumento3">Evaluación</a></td></tr><tr><td><b>S4</b></td><td>Dos caminos, un mismo destino</td><td><select class="teacher-status-select" data-week="4" aria-label="Estado docente semana 4">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></td><td><a href="#semana4">Actividad</a> · <a href="#ficha4">Ficha</a> · <a href="#instrumento4">Evaluación</a></td></tr><tr><td><b>S5</b></td><td>El baile que se repite</td><td><select class="teacher-status-select" data-week="5" aria-label="Estado docente semana 5">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></td><td><a href="#semana5">Actividad</a> · <a href="#ficha5">Ficha</a> · <a href="#instrumento5">Evaluación</a></td></tr><tr><td><b>S6</b></td><td>Una mini-historia que cobra vida</td><td><select class="teacher-status-select" data-week="6" aria-label="Estado docente semana 6">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></td><td><a href="#semana6">Actividad</a> · <a href="#ficha6">Ficha</a> · <a href="#instrumento6">Evaluación</a></td></tr><tr><td><b>S7</b></td><td>Scratch me ayuda a explicar</td><td><select class="teacher-status-select" data-week="7" aria-label="Estado docente semana 7">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></td><td><a href="#semana7">Actividad</a> · <a href="#ficha7">Ficha</a> · <a href="#instrumento7">Evaluación</a></td></tr><tr><td><b>S8</b></td><td>Diseño mi misión final</td><td><select class="teacher-status-select" data-week="8" aria-label="Estado docente semana 8">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></td><td><a href="#semana8">Actividad</a> · <a href="#ficha8">Ficha</a> · <a href="#instrumento8">Evaluación</a></td></tr><tr><td><b>S9</b></td><td>Construyo, pruebo y mejoro</td><td><select class="teacher-status-select" data-week="9" aria-label="Estado docente semana 9">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></td><td><a href="#semana9">Actividad</a> · <a href="#ficha9">Ficha</a> · <a href="#instrumento9">Evaluación</a></td></tr><tr><td><b>S10</b></td><td>Presento: Una misión con propósito</td><td><select class="teacher-status-select" data-week="10" aria-label="Estado docente semana 10">
+<option>Por trabajar</option><option>Próxima</option><option>Clase actual</option><option>Trabajada</option><option>Evaluada</option><option>Cerrada</option><option>Proyecto final</option>
+</select></td><td><a href="#semana10">Actividad</a> · <a href="#ficha10">Ficha</a> · <a href="#instrumento10">Evaluación</a></td></tr></tbody></table></div>
 <p class="privacy">🔒 Esta versión pública contiene instrumentos en blanco. No registrar aquí calificaciones, observaciones privadas ni nombres vinculados al desempeño.</p></section>
 </main>
 <footer><span>Colegio Adventista Juan Pablo Duarte · Tecnología y Robótica · 5.º de Primaria · 2026–2027</span><em>“Todo lo puedo en Cristo que me fortalece.” · Filipenses 4:13</em></footer>
-<script src="js/app.js"></script></body></html>
+<script src="js/app.js"></script>
+<script>
+(function(){
+  const defaults={1:"Trabajada",2:"Trabajada",3:"Clase actual",4:"Por trabajar",5:"Por trabajar",6:"Por trabajar",7:"Por trabajar",8:"Por trabajar",9:"Por trabajar",10:"Proyecto final"};
+  const key=n=>"cajpd-5p-p1-status-"+n;
+  const get=n=>localStorage.getItem(key(n))||defaults[n];
+  const set=(n,v)=>{localStorage.setItem(key(n),v);syncWeek(n,v);};
+
+  function cssState(v){
+    if(["Trabajada","Evaluada","Cerrada"].includes(v)) return "worked";
+    if(["Clase actual","Próxima"].includes(v)) return "current";
+    return "future";
+  }
+  function missionText(v){
+    if(v==="Trabajada") return "YA TRABAJADO";
+    if(v==="Clase actual") return "CLASE ACTUAL · LISTA PARA USAR";
+    if(v==="Próxima") return "PRÓXIMA CLASE";
+    if(v==="Evaluada") return "EVALUADA";
+    if(v==="Cerrada") return "CERRADA";
+    if(v==="Proyecto final") return "PROYECTO FINAL";
+    return "POR TRABAJAR";
+  }
+  function routeText(v){
+    if(v==="Trabajada") return "Trabajada";
+    if(v==="Clase actual") return "Clase actual";
+    if(v==="Próxima") return "Próxima";
+    if(v==="Evaluada") return "Evaluada";
+    if(v==="Cerrada") return "Cerrada";
+    if(v==="Proyecto final") return "Proyecto final";
+    return "Por trabajar";
+  }
+
+  function syncWeek(n,v){
+    document.querySelectorAll('select[data-week="'+n+'"]').forEach(s=>{if(s.value!==v)s.value=v;});
+
+    const route=document.querySelector('.route a[href="#semana'+n+'"]');
+    if(route){
+      route.classList.remove("worked","current","future");
+      route.classList.add(cssState(v));
+      const sm=route.querySelector("small"); if(sm) sm.textContent=routeText(v);
+    }
+
+    const mini=document.querySelector('.week-grid a[href="#semana'+n+'"]');
+    if(mini){
+      mini.classList.remove("worked","current","future");
+      mini.classList.add(cssState(v));
+      const sm=mini.querySelector("small"); if(sm) sm.textContent=routeText(v);
+    }
+
+    const period=document.querySelector('.period-nav a[href="#semana'+n+'"]');
+    if(period){
+      period.classList.remove("done","now");
+      if(["Trabajada","Evaluada","Cerrada"].includes(v)) period.classList.add("done");
+      else if(["Clase actual","Próxima"].includes(v)) period.classList.add("now");
+    }
+
+    const mission=document.getElementById("semana"+n);
+    if(mission){
+      mission.classList.remove("mission-worked","mission-current","mission-future");
+      mission.classList.add(cssState(v)==="worked"?"mission-worked":cssState(v)==="current"?"mission-current":"mission-future");
+      const ms=mission.querySelector(".mission-status"); if(ms) ms.textContent=missionText(v);
+    }
+  }
+
+  document.querySelectorAll(".activity-status-select,.teacher-status-select").forEach(sel=>{
+    const n=Number(sel.dataset.week);
+    sel.value=get(n);
+    sel.addEventListener("change",()=>set(n,sel.value));
+  });
+  for(let n=1;n<=10;n++) syncWeek(n,get(n));
+})();
+</script>
+</body></html>
