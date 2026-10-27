@@ -18,3 +18,7 @@ main{max-width:1120px!important;padding:22px 20px!important;margin:auto!importan
 button,.btn{border-radius:10px!important}.activity-status-select:focus,.teacher-status-select:focus{outline-color:#4c97ff!important}
 @media(max-width:720px){main{padding:12px!important}.topbrand{padding:13px!important;gap:10px!important}.topbrand img{width:58px!important;height:58px!important}.topbrand .motto{display:none!important}.mainnav{justify-content:flex-start!important}.planning-hero{padding:17px!important}.scratch-visual{display:none!important}}
 @media print{.institutional,.mainnav{display:none!important}body{background:white!important}.cardbox,.route-card,.activity-card{box-shadow:none!important}}
+
+.code-mark {
+  color: #ffffff !important;
+}
